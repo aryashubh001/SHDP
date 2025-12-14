@@ -1,0 +1,116 @@
+{
+  "diabetes": {
+    "feature_names": [
+      "Pregnancies",
+      "Glucose",
+      "BloodPressure",
+      "SkinThickness",
+      "Insulin",
+      "BMI",
+      "DiabetesPedigreeFunction",
+      "Age"
+    ],
+    "feature_descriptions": {
+      "Pregnancies": "Number of times pregnant",
+      "Glucose": "Plasma glucose concentration (mg/dL)",
+      "BloodPressure": "Diastolic blood pressure (mm Hg)",
+      "SkinThickness": "Triceps skin fold thickness (mm)",
+      "Insulin": "2-Hour serum insulin (mu U/ml)",
+      "BMI": "Body mass index (weight in kg/(height in m)^2)",
+      "DiabetesPedigreeFunction": "Diabetes pedigree function (genetic factor)",
+      "Age": "Age in years"
+    },
+    "normal_ranges": {
+      "Pregnancies": [0, 17],
+      "Glucose": [70, 140],
+      "BloodPressure": [60, 90],
+      "SkinThickness": [10, 40],
+      "Insulin": [15, 166],
+      "BMI": [18.5, 30],
+      "DiabetesPedigreeFunction": [0.08, 2.42],
+      "Age": [21, 81]
+    }
+  },
+  "heart": {
+    "feature_names": [
+      "age",
+      "sex",
+      "cp",
+      "trestbps",
+      "chol",
+      "fbs",
+      "restecg",
+      "thalach",
+      "exang",
+      "oldpeak",
+      "slope",
+      "ca",
+      "thal"
+    ],
+    "feature_descriptions": {
+      "age": "Age in years",
+      "sex": "Sex (1 = male, 0 = female)",
+      "cp": "Chest pain type (0-3)",
+      "trestbps": "Resting blood pressure (mm Hg)",
+      "chol": "Serum cholesterol (mg/dl)",
+      "fbs": "Fasting blood sugar > 120 mg/dl (1 = true, 0 = false)",
+      "restecg": "Resting ECG results (0-2)",
+      "thalach": "Maximum heart rate achieved",
+      "exang": "Exercise induced angina (1 = yes, 0 = no)",
+      "oldpeak": "ST depression induced by exercise",
+      "slope": "Slope of peak exercise ST segment (0-2)",
+      "ca": "Number of major vessels colored by fluoroscopy (0-3)",
+      "thal": "Thalassemia (0 = normal, 1 = fixed defect, 2 = reversible defect)"
+    }
+  },
+  "parkinson": {
+    "feature_names": [
+      "MDVP:Fo(Hz)",
+      "MDVP:Fhi(Hz)",
+      "MDVP:Flo(Hz)",
+      "MDVP:Jitter(%)",
+      "MDVP:Jitter(Abs)",
+      "MDVP:RAP",
+      "MDVP:PPQ",
+      "Jitter:DDP",
+      "MDVP:Shimmer",
+      "MDVP:Shimmer(dB)",
+      "Shimmer:APQ3",
+      "Shimmer:APQ5",
+      "MDVP:APQ",
+      "Shimmer:DDA",
+      "NHR",
+      "HNR",
+      "RPDE",
+      "DFA",
+      "spread1",
+      "spread2",
+      "D2",
+      "PPE"
+    ],
+    "feature_descriptions": {
+      "MDVP:Fo(Hz)": "Average vocal fundamental frequency",
+      "MDVP:Fhi(Hz)": "Maximum vocal fundamental frequency",
+      "MDVP:Flo(Hz)": "Minimum vocal fundamental frequency",
+      "MDVP:Jitter(%)": "Measure of variation in fundamental frequency",
+      "MDVP:Jitter(Abs)": "Absolute jitter in microseconds",
+      "MDVP:RAP": "Relative amplitude perturbation",
+      "MDVP:PPQ": "Five-point period perturbation quotient",
+      "Jitter:DDP": "Average absolute difference of differences between cycles",
+      "MDVP:Shimmer": "Local shimmer",
+      "MDVP:Shimmer(dB)": "Local shimmer in decibels",
+      "Shimmer:APQ3": "Three-point amplitude perturbation quotient",
+      "Shimmer:APQ5": "Five-point amplitude perturbation quotient",
+      "MDVP:APQ": "Eleven-point amplitude perturbation quotient",
+      "Shimmer:DDA": "Average absolute difference of differences",
+      "NHR": "Noise-to-harmonics ratio",
+      "HNR": "Harmonics-to-noise ratio",
+      "RPDE": "Recurrence period density entropy",
+      "DFA": "Detrended fluctuation analysis",
+      "spread1": "Nonlinear measure of fundamental frequency variation",
+      "spread2": "Nonlinear measure of fundamental frequency variation",
+      "D2": "Correlation dimension",
+      "PPE": "Pitch period entropy"
+    }
+  }
+}
